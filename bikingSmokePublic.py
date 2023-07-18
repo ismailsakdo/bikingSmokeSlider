@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-model = pickle.load(open('/Users/ismailsa/DATASET/newBikingSmoke/bikingSmoke.sav', 'rb'))
+model = pickle.load(open('bikingSmoke.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
